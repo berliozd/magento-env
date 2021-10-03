@@ -15,7 +15,7 @@ The first one should be executed from your local machine and will allow you to b
 - rabbitmq
 - elasticsearch
 
-The second command in line must be executed from the php container.
+The second command must be executed from the php container.
 It will create the magento project using composer. The latest version of magento (aka Adobe commerce) will be installed. At this time the latest version is 2.4.
 As the magento source code is downloaded from the repository https://repo.magento.com/, you will be asked for access keys. To obtain these keys, you must have a magento developper account and access the magento marketplace at this page https://marketplace.magento.com/customer/accessKeys/.
 Once the magento project is created, the script will continue with the magento installation itself.
@@ -33,7 +33,7 @@ docker/pre.sh
 ```
 - run bash inside the PHP container
 ```
-docker-compose -f docker-compose.mc.yml run php bash
+docker-compose -f docker-compose.mac.yml run php bash
 ```
 - run init.sh from the PHP container
 ```
