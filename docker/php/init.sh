@@ -30,8 +30,8 @@ bin/magento setup:install  \
 
 bin/magento module:disable Magento_TwoFactorAuth
 
-echo "################################################################################"
+echo "########################################################################################"
 echo "#                               end install                                    #"
-echo "#  access admin with : http://dev.addeos/  [ user=admin password=admin@addeos1]  #"
+echo "#  access admin with : http://dev.addeos/admin  [ user=admin password=admin@addeos1]  #"
 echo "# access db : [user=localhost login=root password=addeos db=addeos]              #"
-echo "################################################################################"
+echo "########################################################################################"

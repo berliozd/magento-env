@@ -41,3 +41,6 @@ docker/php/init.sh
 ```
 
 That's all.
+
+- The frontend will be accessible on : http://dev.addeos.
+- The backoffice will be accessible on http://dev/addeos/admin. (user: admin, password: admin@addeos1)
